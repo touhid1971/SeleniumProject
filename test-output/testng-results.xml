@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35810" started-at="2022-06-09T10:54:28 EDT" finished-at="2022-06-09T10:55:04 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.RunerFile@e720b71]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="35810" started-at="2022-06-09T10:54:28 EDT" finished-at="2022-06-09T10:55:04 EDT">
+      <class name="steps.RunerFile">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:steps.RunerFile@e720b71]" name="setUpClass" is-config="true" duration-ms="237" started-at="2022-06-09T10:54:28 EDT" finished-at="2022-06-09T10:54:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.RunerFile@e720b71]" name="runScenario" duration-ms="7251" started-at="2022-06-09T10:54:29 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T10:54:36 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001_Login and Logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate Leaftap Applications"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.RunerFile@e720b71]" name="runScenario" duration-ms="5027" started-at="2022-06-09T10:54:36 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T10:54:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC002_Login and Logout for Failiure"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate Leaftap Applications"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:steps.RunerFile@e720b71]" name="runScenario" duration-ms="23142" started-at="2022-06-09T10:54:41 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T10:55:04 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC003_CreateLead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate Leaftap Applications"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:steps.RunerFile@e720b71]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2022-06-09T10:55:04 EDT" finished-at="2022-06-09T10:55:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- steps.RunerFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
